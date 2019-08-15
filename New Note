@@ -1,0 +1,9 @@
+title Notes SPA
+note over browser:
+User enters new note and hits the save button
+end note
+browser->server:  HTTP GET https:browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/spa
+server-->browser: json response {"message":"note created"}
+ note over browser:
+ Browser renders page with new noted added to list of notes via spa.js
+ end note
